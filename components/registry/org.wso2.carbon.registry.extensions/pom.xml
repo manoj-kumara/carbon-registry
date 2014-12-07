@@ -99,6 +99,7 @@
                         </Private-Package>
                         <Import-Package>
                             org.wso2.carbon.registry.core.*;version="${carbon.kernel.registry.imp.pkg.version}",
+                            org.wso2.carbon.ui.*;version="${carbon.kernel.package.import.version.range}",
                             org.apache.maven.scm.*,
                             org.codehaus.plexus.*,
                             !javax.xml.namespace,
